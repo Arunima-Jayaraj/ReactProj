@@ -14,7 +14,7 @@ function App() {
         <form
           onSubmit={(e) => {
             e.preventDefault();
-            console.log(state, "state values");
+            console.log(state, "form values");
           }}
         >
           <div className="form-group">
